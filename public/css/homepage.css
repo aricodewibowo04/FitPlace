@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.raleway {
+    font-family: 'raleway', sans-serif;
+}
+
+.merryweather {
+    font-family: 'Merryweahter', serif;
+}
+
+
+.welcome {
+    font-family: 'Merryweather', serif;
+}
+
+.green {
+    color: #0cd2bb;
+    font-weight: 400;
+}
+
+.nav-link {
+    /* background-color: #b4eae4; */
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.btn-s {
+    background-color: #0cd2bb;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    transition: all .4s cubic-bezier(0.6s, 0.045, 0.355, 1);
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.btn-s:hover {
+    background-color: #b4eae4;
+    color: #033838;
+}
+
+.border-fitplace {
+    border: 2px solid #b4eae4;
+}
+
+.bg-fitplace {
+    background-color: #b4eae4;
+}
+
+.btn-outline-fitplace {
+    outline: 1px solid #0cd2bb;
+}
+
+.nav-link {
+    color: #033838;
+}
+
+.nav-lnk:hover {
+    color: #0cd2bb;
+}
+
+
+
+.logo {
+    color: #0cd2bb;
+    font-family: 'Merryweather', serif;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.container-fluid-content {
+    padding: 60px 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        justify-content: center;
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.carousel-inner h4 {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.animatable {
+    visibility: hidden;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.animatable {
+    visibility: visible;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animationfill-modee: both;
+    animation-fill-mode: both;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animationduratione: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -ms-animation-play-state: running;
+    -o-animationplay-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-o-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+.animated.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
